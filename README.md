@@ -1,2 +1,3 @@
-# Notas Atletas | Devstart
-Projeto I
+Projeto Devstart I
+# Projeto é uma aplicação simples em JavaScript que simula a avaliação de atletas em uma competição de ginástica artística. Ele pega o nome e as notas de cada atleta, remove a maior e a menor nota, e calcula a média das três notas restantes — que é a nota válida da apresentação.
+# O código começa com uma lista de jogadores, onde cada um tem um nome e uma lista de cinco notas dadas pelos juízes. A parte de código calcularMédias passa por essa lista usando um laço for, pegando cada jogador e suas notas. Então, as notas são copiadas e colocadas em ordem do menor para o maior com o comando ordenar. Depois, a menor e a maior nota são tiradas com o comando cortar, sobrando apenas as três notas do meio, que são as que contam de verdade para calcular a média. As três notas são somadas com o metódo paraCada, e o total é dividido pela quantidade de notas para achar a média que vale. No final, o programa mostra no texto um nome de um jogador, suas notas originais e a média que foi calculada. Assim sendo O código torna a regra do jogo automática e mostra o jeito que faz de um modo fácil e direto.
